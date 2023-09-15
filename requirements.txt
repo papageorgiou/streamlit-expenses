@@ -3,5 +3,6 @@ pandas==1.2.4
 streamlit
 matplotlib
 seaborn
+openpyxl
 google-cloud-bigquery
 pandas-gbq
