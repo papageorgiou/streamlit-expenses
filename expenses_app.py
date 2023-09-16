@@ -52,7 +52,7 @@ if check_password():
         return df
 
     # Streamlit app
-    st.title("Household Financial Transactions Analyzer")
+    st.title("Home Money Tracker App 🏠💰📊")
 
     uploaded_file = st.file_uploader("Upload an excel file with financial transactions", type="xlsx")
 
@@ -92,7 +92,7 @@ if check_password():
             st.write("All Categories are selected.")
         
         # Display data in tabular format
-        st.table(data)
+        st.dataframe(data)
 
 
 
